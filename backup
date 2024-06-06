@@ -1,0 +1,18 @@
+#This is from the tkinter, incase pysimplegui doesn't work
+import rsa
+import random
+from tkinter import *
+from tkinter.ttk import *
+root = Tk()
+window = root
+window.title("Hello world")
+window.geometry("450x460")
+hello = Label(text="Welcome!")
+hello.pack()
+button = Button(text="Enter a Password!", command = root.destroy)
+button.pack()
+button2 = Button(text = "View a Password!")
+button2.pack()
+button3 = Button(text="Generate a Password!")
+button3.pack()
+root.mainloop()
